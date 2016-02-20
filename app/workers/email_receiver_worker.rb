@@ -4,6 +4,6 @@ class EmailReceiverWorker
   def perform(message)
     mail = Mail::Message.new(message)
 
-    puts "New mail from #{mail.from.first}: #{mail.subject}"
+    puts "New mail from #{mail.from.first}: #{mail.subject}, with attachments #{mail.attachments}, #{mail.attachment?}"
   end
 end
