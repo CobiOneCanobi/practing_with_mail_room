@@ -2,7 +2,7 @@
 :mailboxes:
   -
     :email: "mail.room.sidekiq@gmail.com"
-    :password: Rails.application.secrets.gmail_password
+    :password: " "
     :name: "inbox"
     :delivery_method: sidekiq
     :delivery_options:

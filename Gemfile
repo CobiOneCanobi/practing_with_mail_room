@@ -36,6 +36,7 @@ gem 'mail_room'
 gem 'redis'
 gem 'sidekiq'
 gem 'charlock_holmes', '~> 0.7.3'
+gem 'mail-gpg'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
