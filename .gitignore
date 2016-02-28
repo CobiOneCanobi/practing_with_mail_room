@@ -17,3 +17,8 @@
 /tmp
 
 config/secrets.yml
+
+# Ignore application configuration
+/config/application.yml
+
+/config/mail_room.yml
