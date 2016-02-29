@@ -1,6 +1,5 @@
----
 :mailboxes:
-  -
+
     :email: "mail.room.sidekiq@gmail.com"
     :password: "password1234567"
     :name: "inbox"

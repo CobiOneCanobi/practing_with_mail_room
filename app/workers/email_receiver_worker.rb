@@ -9,6 +9,7 @@ class EmailReceiverWorker
         # the plaintext_mail, is a full Mail::Message object, just decrypted
       end
     puts "New mail from #{mail.from.first}: #{mail.subject}, with attachments #{mail.has_attachments?}"
+
     mail.attachments.each do |attch|
       fn = attch.filename
       puts fn
@@ -18,5 +19,4 @@ class EmailReceiverWorker
         logger.error "Unable to save data for #{fn} because #{e.message}"
       end
     end
-end
 end

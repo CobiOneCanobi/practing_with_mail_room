@@ -36,11 +36,12 @@ gem 'mail_room'
 gem 'redis'
 gem 'sidekiq'
 gem 'charlock_holmes', '~> 0.7.3'
-gem 'rgpg'
+
 gem 'mail-gpg'
 gem 'figaro'
 gem 'carrierwave'
 gem 'fog-aws'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
